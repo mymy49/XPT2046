@@ -76,8 +76,6 @@ public :
 
 	/**
 	 * @brief Constructs a new XPT2046 driver object.
-	 * @param None.
-	 * @return None.
 	 * @author Yoon-Ki Hong
 	 * @date 2026
 	 * @warning None.
