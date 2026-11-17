@@ -1,0 +1,11 @@
+<map id="XPT2046.h" name="XPT2046.h">
+<area shape="rect" id="Node000001" title="Driver for the XPT2046 4&#45;wire resistive touch screen controller." alt="" coords="231,5,321,33"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="5,81,160,109"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="244,34,132,78,130,73,239,33"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="183,81,262,109"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="269,32,242,70,239,66,264,35"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="286,81,375,109"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="287,31,314,69,309,68,284,36"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="399,81,502,109"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="308,31,408,75,403,75,307,36"/>
+</map>

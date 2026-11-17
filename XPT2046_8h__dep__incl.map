@@ -1,0 +1,5 @@
+<map id="XPT2046.h" name="XPT2046.h">
+<area shape="rect" id="Node000001" title="Driver for the XPT2046 4&#45;wire resistive touch screen controller." alt="" coords="41,5,131,33"/>
+<area shape="rect" id="Node000002" href="$module__XPT2046_8cpp.html" title="Implementation of the XPT2046 resistive touch screen controller driver." alt="" coords="5,81,167,109"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="88,47,88,82,84,80,84,51"/>
+</map>

@@ -1,0 +1,9 @@
+<map id="XPT2046" name="XPT2046">
+<area shape="rect" id="Node000001" title="Driver class for the XPT2046 4&#45;wire resistive touch screen controller." alt="" coords="141,128,220,156"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="5,5,124,33"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="89,42,170,127,165,129,86,46"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="148,5,213,33"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="183,47,183,129,178,127,178,50"/>
+<area shape="rect" id="Node000004" href="$unionXPT2046_1_1XPT2046__Control__t.html" title="8&#45;bit control byte format for XPT2046 command transactions over SPI." alt="" coords="237,5,446,33"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="315,42,200,130,197,125,310,42"/>
+</map>
