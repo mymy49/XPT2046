@@ -137,7 +137,9 @@ Protected Member Functions</h2></td></tr>
 <tr class="heading"><td colspan="2"><h2 id="header-pro-attribs" class="groupheader"><a id="pro-attribs" name="pro-attribs"></a>
 Protected Attributes</h2></td></tr>
 <tr class="memitem:aba72d20705dfd1949ec80ce73786ec3e" id="r_aba72d20705dfd1949ec80ce73786ec3e"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="unionXPT2046_1_1XPT2046__Control__t.html">XPT2046_Control_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aba72d20705dfd1949ec80ce73786ec3e">mConXpos</a></td></tr>
+<tr class="memdesc:aba72d20705dfd1949ec80ce73786ec3e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Predefined <a class="el" href="classXPT2046.html" title="Driver class for the XPT2046 4-wire resistive touch screen controller.">XPT2046</a> control command for sampling the 12-bit differential X-position channel (channel 5).  <br /></td></tr>
 <tr class="memitem:af2ea9dec53894be4312c06aee04a4f75" id="r_af2ea9dec53894be4312c06aee04a4f75"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="unionXPT2046_1_1XPT2046__Control__t.html">XPT2046_Control_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af2ea9dec53894be4312c06aee04a4f75">mConYpos</a></td></tr>
+<tr class="memdesc:af2ea9dec53894be4312c06aee04a4f75"><td class="mdescLeft">&#160;</td><td class="mdescRight">Predefined <a class="el" href="classXPT2046.html" title="Driver class for the XPT2046 4-wire resistive touch screen controller.">XPT2046</a> control command for sampling the 12-bit differential Y-position channel (channel 1).  <br /></td></tr>
 </table>
 <a name="details" id="details"></a><h2 id="header-details" class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Driver class for the <a class="el" href="classXPT2046.html" title="Driver class for the XPT2046 4-wire resistive touch screen controller.">XPT2046</a> 4-wire resistive touch screen controller. </p>
@@ -171,7 +173,7 @@ Example Usage</h3>
 <div class="line">}</div>
 <div class="ttc" id="aclassXPT2046_html_a178311f49353d6e7e047705092f7f0a4"><div class="ttname"><a href="#a178311f49353d6e7e047705092f7f0a4">XPT2046::initialize</a></div><div class="ttdeci">error_t initialize(config_t config)</div><div class="ttdoc">Initializes the XPT2046 touch screen controller and sets up the touch interrupt.</div><div class="ttdef"><b>Definition</b> module_XPT2046.cpp:51</div></div>
 <div class="ttc" id="aclassXPT2046_html_a20082a088be0347ee5e9f220bd9e710c"><div class="ttname"><a href="#a20082a088be0347ee5e9f220bd9e710c">XPT2046::XPT2046</a></div><div class="ttdeci">XPT2046()</div><div class="ttdoc">Constructs a new XPT2046 driver object.</div><div class="ttdef"><b>Definition</b> module_XPT2046.cpp:34</div></div>
-<div class="ttc" id="astructXPT2046_1_1config__t_html"><div class="ttname"><a href="structXPT2046_1_1config__t.html">XPT2046::config_t</a></div><div class="ttdoc">Hardware configuration parameters for initializing the XPT2046 driver.</div><div class="ttdef"><b>Definition</b> XPT2046.h:70</div></div>
+<div class="ttc" id="astructXPT2046_1_1config__t_html"><div class="ttname"><a href="structXPT2046_1_1config__t.html">XPT2046::config_t</a></div><div class="ttdoc">Hardware configuration parameters for initializing the XPT2046 driver.</div><div class="ttdef"><b>Definition</b> XPT2046.h:72</div></div>
 </div><!-- fragment --> </div><a name="doc-constructors" id="doc-constructors"></a><h2 id="header-doc-constructors" class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a20082a088be0347ee5e9f220bd9e710c" name="a20082a088be0347ee5e9f220bd9e710c"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a20082a088be0347ee5e9f220bd9e710c">&#9670;&#160;</a></span>XPT2046()</h2>
@@ -189,6 +191,13 @@ Example Usage</h3>
 </div><div class="memdoc">
 
 <p>Constructs a new <a class="el" href="classXPT2046.html" title="Driver class for the XPT2046 4-wire resistive touch screen controller.">XPT2046</a> driver object. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">none</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>none </dd></dl>
 <dl class="section author"><dt>Author</dt><dd>Yoon-Ki Hong </dd></dl>
 <dl class="section date"><dt>Date</dt><dd>2026 </dd></dl>
 <dl class="section warning"><dt>Warning</dt><dd>None. </dd></dl>
@@ -314,6 +323,8 @@ Gpio::setGpioInterrupt() </dd></dl>
 <div class="line">        1   </div>
 <div class="line">    }</div>
 </div><!-- fragment -->
+<p>Predefined <a class="el" href="classXPT2046.html" title="Driver class for the XPT2046 4-wire resistive touch screen controller.">XPT2046</a> control command for sampling the 12-bit differential X-position channel (channel 5). </p>
+
 </div>
 </div>
 <a id="af2ea9dec53894be4312c06aee04a4f75" name="af2ea9dec53894be4312c06aee04a4f75"></a>
@@ -344,6 +355,8 @@ Gpio::setGpioInterrupt() </dd></dl>
 <div class="line">        1   </div>
 <div class="line">    }</div>
 </div><!-- fragment -->
+<p>Predefined <a class="el" href="classXPT2046.html" title="Driver class for the XPT2046 4-wire resistive touch screen controller.">XPT2046</a> control command for sampling the 12-bit differential Y-position channel (channel 1). </p>
+
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following files:<ul>

@@ -99,103 +99,103 @@ $(function(){initNavTree('XPT2046_8h_source.html','',''); });
 <div class="line"><a id="l00005" name="l00005"></a><span class="lineno">    5</span><span class="comment"> * See the file &quot;LICENSE&quot; in the main directory of this archive for more details.</span></div>
 <div class="line"><a id="l00006" name="l00006"></a><span class="lineno">    6</span><span class="comment"> */</span></div>
 <div class="line"><a id="l00007" name="l00007"></a><span class="lineno">    7</span></div>
-<div class="line"><a id="l00012" name="l00012"></a><span class="lineno">   12</span> </div>
-<div class="line"><a id="l00013" name="l00013"></a><span class="lineno">   13</span><span class="preprocessor">#ifndef YSS_MODULE_XPT2046__H_</span></div>
-<div class="line"><a id="l00014" name="l00014"></a><span class="lineno">   14</span><span class="preprocessor">#define YSS_MODULE_XPT2046__H_</span></div>
-<div class="line"><a id="l00015" name="l00015"></a><span class="lineno">   15</span> </div>
-<div class="line"><a id="l00016" name="l00016"></a><span class="lineno">   16</span><span class="preprocessor">#include &lt;hal/ResistiveTouch.h&gt;</span></div>
-<div class="line"><a id="l00017" name="l00017"></a><span class="lineno">   17</span><span class="preprocessor">#include &lt;drv/Spi.h&gt;</span></div>
-<div class="line"><a id="l00018" name="l00018"></a><span class="lineno">   18</span><span class="preprocessor">#include &lt;drv/Gpio.h&gt;</span></div>
-<div class="line"><a id="l00019" name="l00019"></a><span class="lineno">   19</span><span class="preprocessor">#include &lt;yss/Trigger.h&gt;</span></div>
-<div class="line"><a id="l00020" name="l00020"></a><span class="lineno">   20</span></div>
-<div class="foldopen" id="foldopen00062" data-start="{" data-end="};">
-<div class="line"><a id="l00062" name="l00062"></a><span class="lineno"><a class="line" href="classXPT2046.html">   62</a></span><span class="keyword">class </span><a class="code hl_function" href="classXPT2046.html#a20082a088be0347ee5e9f220bd9e710c">XPT2046</a> : <span class="keyword">public</span> ResistiveTouch, <span class="keyword">protected</span> Trigger</div>
-<div class="line"><a id="l00063" name="l00063"></a><span class="lineno">   63</span>{</div>
-<div class="line"><a id="l00064" name="l00064"></a><span class="lineno">   64</span>public :</div>
-<div class="foldopen" id="foldopen00069" data-start="{" data-end="};">
-<div class="line"><a id="l00069" name="l00069"></a><span class="lineno"><a class="line" href="structXPT2046_1_1config__t.html">   69</a></span>    <span class="keyword">struct </span><a class="code hl_struct" href="structXPT2046_1_1config__t.html">config_t</a></div>
-<div class="line"><a id="l00070" name="l00070"></a><span class="lineno">   70</span>    {</div>
-<div class="line"><a id="l00071" name="l00071"></a><span class="lineno"><a class="line" href="structXPT2046_1_1config__t.html#a7ec2eeae3db94a153dedebce7f56e2c1">   71</a></span>        Spi &amp;<a class="code hl_variable" href="structXPT2046_1_1config__t.html#a7ec2eeae3db94a153dedebce7f56e2c1">spi</a>;           </div>
-<div class="line"><a id="l00072" name="l00072"></a><span class="lineno"><a class="line" href="structXPT2046_1_1config__t.html#acfa3f54f769c8e0b8cdc8c0ded999873">   72</a></span>        pin_t <a class="code hl_variable" href="structXPT2046_1_1config__t.html#acfa3f54f769c8e0b8cdc8c0ded999873">chipSelect</a>;   </div>
-<div class="line"><a id="l00073" name="l00073"></a><span class="lineno"><a class="line" href="structXPT2046_1_1config__t.html#a7a062a97218c4a1de45a38e0e695b0c4">   73</a></span>        pin_t <a class="code hl_variable" href="structXPT2046_1_1config__t.html#a7a062a97218c4a1de45a38e0e695b0c4">busy</a>;         </div>
-<div class="line"><a id="l00074" name="l00074"></a><span class="lineno"><a class="line" href="structXPT2046_1_1config__t.html#a484280411b4f9c11402489203b9a9cd5">   74</a></span>        pin_t <a class="code hl_variable" href="structXPT2046_1_1config__t.html#a484280411b4f9c11402489203b9a9cd5">isr</a>;          </div>
-<div class="line"><a id="l00075" name="l00075"></a><span class="lineno">   75</span>    };</div>
+<div class="line"><a id="l00014" name="l00014"></a><span class="lineno">   14</span> </div>
+<div class="line"><a id="l00015" name="l00015"></a><span class="lineno">   15</span><span class="preprocessor">#ifndef YSS_MODULE_XPT2046__H_</span></div>
+<div class="line"><a id="l00016" name="l00016"></a><span class="lineno">   16</span><span class="preprocessor">#define YSS_MODULE_XPT2046__H_</span></div>
+<div class="line"><a id="l00017" name="l00017"></a><span class="lineno">   17</span> </div>
+<div class="line"><a id="l00018" name="l00018"></a><span class="lineno">   18</span><span class="preprocessor">#include &lt;hal/ResistiveTouch.h&gt;</span></div>
+<div class="line"><a id="l00019" name="l00019"></a><span class="lineno">   19</span><span class="preprocessor">#include &lt;drv/Spi.h&gt;</span></div>
+<div class="line"><a id="l00020" name="l00020"></a><span class="lineno">   20</span><span class="preprocessor">#include &lt;drv/Gpio.h&gt;</span></div>
+<div class="line"><a id="l00021" name="l00021"></a><span class="lineno">   21</span><span class="preprocessor">#include &lt;yss/Trigger.h&gt;</span></div>
+<div class="line"><a id="l00022" name="l00022"></a><span class="lineno">   22</span></div>
+<div class="foldopen" id="foldopen00064" data-start="{" data-end="};">
+<div class="line"><a id="l00064" name="l00064"></a><span class="lineno"><a class="line" href="classXPT2046.html">   64</a></span><span class="keyword">class </span><a class="code hl_function" href="classXPT2046.html#a20082a088be0347ee5e9f220bd9e710c">XPT2046</a> : <span class="keyword">public</span> ResistiveTouch, <span class="keyword">protected</span> Trigger</div>
+<div class="line"><a id="l00065" name="l00065"></a><span class="lineno">   65</span>{</div>
+<div class="line"><a id="l00066" name="l00066"></a><span class="lineno">   66</span>public :</div>
+<div class="foldopen" id="foldopen00071" data-start="{" data-end="};">
+<div class="line"><a id="l00071" name="l00071"></a><span class="lineno"><a class="line" href="structXPT2046_1_1config__t.html">   71</a></span>    <span class="keyword">struct </span><a class="code hl_struct" href="structXPT2046_1_1config__t.html">config_t</a></div>
+<div class="line"><a id="l00072" name="l00072"></a><span class="lineno">   72</span>    {</div>
+<div class="line"><a id="l00073" name="l00073"></a><span class="lineno"><a class="line" href="structXPT2046_1_1config__t.html#a7ec2eeae3db94a153dedebce7f56e2c1">   73</a></span>        Spi &amp;<a class="code hl_variable" href="structXPT2046_1_1config__t.html#a7ec2eeae3db94a153dedebce7f56e2c1">spi</a>;           </div>
+<div class="line"><a id="l00074" name="l00074"></a><span class="lineno"><a class="line" href="structXPT2046_1_1config__t.html#acfa3f54f769c8e0b8cdc8c0ded999873">   74</a></span>        pin_t <a class="code hl_variable" href="structXPT2046_1_1config__t.html#acfa3f54f769c8e0b8cdc8c0ded999873">chipSelect</a>;   </div>
+<div class="line"><a id="l00075" name="l00075"></a><span class="lineno"><a class="line" href="structXPT2046_1_1config__t.html#a7a062a97218c4a1de45a38e0e695b0c4">   75</a></span>        pin_t <a class="code hl_variable" href="structXPT2046_1_1config__t.html#a7a062a97218c4a1de45a38e0e695b0c4">busy</a>;         </div>
+<div class="line"><a id="l00076" name="l00076"></a><span class="lineno"><a class="line" href="structXPT2046_1_1config__t.html#a484280411b4f9c11402489203b9a9cd5">   76</a></span>        pin_t <a class="code hl_variable" href="structXPT2046_1_1config__t.html#a484280411b4f9c11402489203b9a9cd5">isr</a>;          </div>
+<div class="line"><a id="l00077" name="l00077"></a><span class="lineno">   77</span>    };</div>
 </div>
-<div class="line"><a id="l00076" name="l00076"></a><span class="lineno">   76</span></div>
-<div class="line"><a id="l00087" name="l00087"></a><span class="lineno">   87</span>    <a class="code hl_function" href="classXPT2046.html#a20082a088be0347ee5e9f220bd9e710c">XPT2046</a>();</div>
-<div class="line"><a id="l00088" name="l00088"></a><span class="lineno">   88</span></div>
-<div class="line"><a id="l00101" name="l00101"></a><span class="lineno">  101</span>    error_t <a class="code hl_function" href="classXPT2046.html#a178311f49353d6e7e047705092f7f0a4">initialize</a>(<a class="code hl_struct" href="structXPT2046_1_1config__t.html">config_t</a> config);</div>
-<div class="line"><a id="l00102" name="l00102"></a><span class="lineno">  102</span>    </div>
-<div class="line"><a id="l00103" name="l00103"></a><span class="lineno">  103</span>protected :</div>
-<div class="foldopen" id="foldopen00108" data-start="{" data-end="};">
-<div class="line"><a id="l00108" name="l00108"></a><span class="lineno"><a class="line" href="unionXPT2046_1_1XPT2046__Control__t.html">  108</a></span>    <span class="keyword">union </span><a class="code hl_union" href="unionXPT2046_1_1XPT2046__Control__t.html">XPT2046_Control_t</a></div>
-<div class="line"><a id="l00109" name="l00109"></a><span class="lineno">  109</span>    {</div>
-<div class="line"><a id="l00110" name="l00110"></a><span class="lineno">  110</span>        <span class="keyword">struct </span></div>
-<div class="line"><a id="l00111" name="l00111"></a><span class="lineno">  111</span>        {</div>
-<div class="line"><a id="l00112" name="l00112"></a><span class="lineno"><a class="line" href="unionXPT2046_1_1XPT2046__Control__t.html#afa909622c791ef0769ef291963e6e34f">  112</a></span>            uint8_t <a class="code hl_variable" href="unionXPT2046_1_1XPT2046__Control__t.html#afa909622c791ef0769ef291963e6e34f">pd</a>      : 2;    </div>
-<div class="line"><a id="l00113" name="l00113"></a><span class="lineno"><a class="line" href="unionXPT2046_1_1XPT2046__Control__t.html#a28ae3d3691a47e07b9821719e3a208c7">  113</a></span>            uint8_t <a class="code hl_variable" href="unionXPT2046_1_1XPT2046__Control__t.html#a28ae3d3691a47e07b9821719e3a208c7">ser_dfr</a> : 1;    </div>
-<div class="line"><a id="l00114" name="l00114"></a><span class="lineno"><a class="line" href="unionXPT2046_1_1XPT2046__Control__t.html#a8399336c7fae8f2867e6fd8ececd023d">  114</a></span>            uint8_t <a class="code hl_variable" href="unionXPT2046_1_1XPT2046__Control__t.html#a8399336c7fae8f2867e6fd8ececd023d">mode</a>    : 1;    </div>
-<div class="line"><a id="l00115" name="l00115"></a><span class="lineno"><a class="line" href="unionXPT2046_1_1XPT2046__Control__t.html#a5c8c3618a0c666a3d309a67491c553b0">  115</a></span>            uint8_t <a class="code hl_variable" href="unionXPT2046_1_1XPT2046__Control__t.html#a5c8c3618a0c666a3d309a67491c553b0">channel</a> : 3;    </div>
-<div class="line"><a id="l00116" name="l00116"></a><span class="lineno"><a class="line" href="unionXPT2046_1_1XPT2046__Control__t.html#ab183e56977f89e4f0be255847faf4477">  116</a></span>            uint8_t <a class="code hl_variable" href="unionXPT2046_1_1XPT2046__Control__t.html#ab183e56977f89e4f0be255847faf4477">s</a>       : 1;    </div>
-<div class="line"><a id="l00117" name="l00117"></a><span class="lineno"><a class="line" href="unionXPT2046_1_1XPT2046__Control__t.html#a5297447933679b9e1eacfbeee13b830f">  117</a></span>        } <a class="code hl_variable" href="unionXPT2046_1_1XPT2046__Control__t.html#a5297447933679b9e1eacfbeee13b830f">bits</a>;</div>
-<div class="line"><a id="l00118" name="l00118"></a><span class="lineno">  118</span> </div>
-<div class="line"><a id="l00119" name="l00119"></a><span class="lineno"><a class="line" href="unionXPT2046_1_1XPT2046__Control__t.html#a2879b3b4b87d730aba92784dc3ebe78c">  119</a></span>        uint8_t <a class="code hl_variable" href="unionXPT2046_1_1XPT2046__Control__t.html#a2879b3b4b87d730aba92784dc3ebe78c">byte</a>;               </div>
-<div class="line"><a id="l00120" name="l00120"></a><span class="lineno">  120</span>    };</div>
+<div class="line"><a id="l00078" name="l00078"></a><span class="lineno">   78</span></div>
+<div class="line"><a id="l00091" name="l00091"></a><span class="lineno">   91</span>    <a class="code hl_function" href="classXPT2046.html#a20082a088be0347ee5e9f220bd9e710c">XPT2046</a>();</div>
+<div class="line"><a id="l00092" name="l00092"></a><span class="lineno">   92</span></div>
+<div class="line"><a id="l00105" name="l00105"></a><span class="lineno">  105</span>    error_t <a class="code hl_function" href="classXPT2046.html#a178311f49353d6e7e047705092f7f0a4">initialize</a>(<a class="code hl_struct" href="structXPT2046_1_1config__t.html">config_t</a> config);</div>
+<div class="line"><a id="l00106" name="l00106"></a><span class="lineno">  106</span>    </div>
+<div class="line"><a id="l00107" name="l00107"></a><span class="lineno">  107</span>protected :</div>
+<div class="foldopen" id="foldopen00112" data-start="{" data-end="};">
+<div class="line"><a id="l00112" name="l00112"></a><span class="lineno"><a class="line" href="unionXPT2046_1_1XPT2046__Control__t.html">  112</a></span>    <span class="keyword">union </span><a class="code hl_union" href="unionXPT2046_1_1XPT2046__Control__t.html">XPT2046_Control_t</a></div>
+<div class="line"><a id="l00113" name="l00113"></a><span class="lineno">  113</span>    {</div>
+<div class="line"><a id="l00114" name="l00114"></a><span class="lineno">  114</span>        <span class="keyword">struct </span></div>
+<div class="line"><a id="l00115" name="l00115"></a><span class="lineno">  115</span>        {</div>
+<div class="line"><a id="l00116" name="l00116"></a><span class="lineno"><a class="line" href="unionXPT2046_1_1XPT2046__Control__t.html#afa909622c791ef0769ef291963e6e34f">  116</a></span>            uint8_t <a class="code hl_variable" href="unionXPT2046_1_1XPT2046__Control__t.html#afa909622c791ef0769ef291963e6e34f">pd</a>      : 2;    </div>
+<div class="line"><a id="l00117" name="l00117"></a><span class="lineno"><a class="line" href="unionXPT2046_1_1XPT2046__Control__t.html#a28ae3d3691a47e07b9821719e3a208c7">  117</a></span>            uint8_t <a class="code hl_variable" href="unionXPT2046_1_1XPT2046__Control__t.html#a28ae3d3691a47e07b9821719e3a208c7">ser_dfr</a> : 1;    </div>
+<div class="line"><a id="l00118" name="l00118"></a><span class="lineno"><a class="line" href="unionXPT2046_1_1XPT2046__Control__t.html#a8399336c7fae8f2867e6fd8ececd023d">  118</a></span>            uint8_t <a class="code hl_variable" href="unionXPT2046_1_1XPT2046__Control__t.html#a8399336c7fae8f2867e6fd8ececd023d">mode</a>    : 1;    </div>
+<div class="line"><a id="l00119" name="l00119"></a><span class="lineno"><a class="line" href="unionXPT2046_1_1XPT2046__Control__t.html#a5c8c3618a0c666a3d309a67491c553b0">  119</a></span>            uint8_t <a class="code hl_variable" href="unionXPT2046_1_1XPT2046__Control__t.html#a5c8c3618a0c666a3d309a67491c553b0">channel</a> : 3;    </div>
+<div class="line"><a id="l00120" name="l00120"></a><span class="lineno"><a class="line" href="unionXPT2046_1_1XPT2046__Control__t.html#ab183e56977f89e4f0be255847faf4477">  120</a></span>            uint8_t <a class="code hl_variable" href="unionXPT2046_1_1XPT2046__Control__t.html#ab183e56977f89e4f0be255847faf4477">s</a>       : 1;    </div>
+<div class="line"><a id="l00121" name="l00121"></a><span class="lineno"><a class="line" href="unionXPT2046_1_1XPT2046__Control__t.html#a5297447933679b9e1eacfbeee13b830f">  121</a></span>        } <a class="code hl_variable" href="unionXPT2046_1_1XPT2046__Control__t.html#a5297447933679b9e1eacfbeee13b830f">bits</a>;</div>
+<div class="line"><a id="l00122" name="l00122"></a><span class="lineno">  122</span> </div>
+<div class="line"><a id="l00123" name="l00123"></a><span class="lineno"><a class="line" href="unionXPT2046_1_1XPT2046__Control__t.html#a2879b3b4b87d730aba92784dc3ebe78c">  123</a></span>        uint8_t <a class="code hl_variable" href="unionXPT2046_1_1XPT2046__Control__t.html#a2879b3b4b87d730aba92784dc3ebe78c">byte</a>;               </div>
+<div class="line"><a id="l00124" name="l00124"></a><span class="lineno">  124</span>    };</div>
 </div>
-<div class="line"><a id="l00121" name="l00121"></a><span class="lineno">  121</span> </div>
-<div class="foldopen" id="foldopen00122" data-start="{" data-end="};">
-<div class="line"><a id="l00122" name="l00122"></a><span class="lineno"><a class="line" href="classXPT2046.html#aba72d20705dfd1949ec80ce73786ec3e">  122</a></span>    <span class="keyword">const</span> <a class="code hl_union" href="unionXPT2046_1_1XPT2046__Control__t.html">XPT2046_Control_t</a> <a class="code hl_variable" href="classXPT2046.html#aba72d20705dfd1949ec80ce73786ec3e">mConXpos</a> = </div>
-<div class="line"><a id="l00123" name="l00123"></a><span class="lineno">  123</span>    {</div>
-<div class="line"><a id="l00124" name="l00124"></a><span class="lineno">  124</span>        0,  <span class="comment">//uint8_t pd      : 2;</span></div>
-<div class="line"><a id="l00125" name="l00125"></a><span class="lineno">  125</span>        0,  <span class="comment">//uint8_t ser_dfr : 1;</span></div>
-<div class="line"><a id="l00126" name="l00126"></a><span class="lineno">  126</span>        0,  <span class="comment">//uint8_t mode    : 1;</span></div>
-<div class="line"><a id="l00127" name="l00127"></a><span class="lineno">  127</span>        5,  <span class="comment">//uint8_t channel : 3;</span></div>
-<div class="line"><a id="l00128" name="l00128"></a><span class="lineno">  128</span>        1   <span class="comment">//uint8_t s       : 1;</span></div>
-<div class="line"><a id="l00129" name="l00129"></a><span class="lineno">  129</span>    };</div>
+<div class="line"><a id="l00125" name="l00125"></a><span class="lineno">  125</span></div>
+<div class="foldopen" id="foldopen00129" data-start="{" data-end="};">
+<div class="line"><a id="l00129" name="l00129"></a><span class="lineno"><a class="line" href="classXPT2046.html#aba72d20705dfd1949ec80ce73786ec3e">  129</a></span>    <span class="keyword">const</span> <a class="code hl_union" href="unionXPT2046_1_1XPT2046__Control__t.html">XPT2046_Control_t</a> <a class="code hl_variable" href="classXPT2046.html#aba72d20705dfd1949ec80ce73786ec3e">mConXpos</a> = </div>
+<div class="line"><a id="l00130" name="l00130"></a><span class="lineno">  130</span>    {</div>
+<div class="line"><a id="l00131" name="l00131"></a><span class="lineno">  131</span>        0,  <span class="comment">//uint8_t pd      : 2;</span></div>
+<div class="line"><a id="l00132" name="l00132"></a><span class="lineno">  132</span>        0,  <span class="comment">//uint8_t ser_dfr : 1;</span></div>
+<div class="line"><a id="l00133" name="l00133"></a><span class="lineno">  133</span>        0,  <span class="comment">//uint8_t mode    : 1;</span></div>
+<div class="line"><a id="l00134" name="l00134"></a><span class="lineno">  134</span>        5,  <span class="comment">//uint8_t channel : 3;</span></div>
+<div class="line"><a id="l00135" name="l00135"></a><span class="lineno">  135</span>        1   <span class="comment">//uint8_t s       : 1;</span></div>
+<div class="line"><a id="l00136" name="l00136"></a><span class="lineno">  136</span>    };</div>
 </div>
-<div class="line"><a id="l00130" name="l00130"></a><span class="lineno">  130</span> </div>
-<div class="foldopen" id="foldopen00131" data-start="{" data-end="};">
-<div class="line"><a id="l00131" name="l00131"></a><span class="lineno"><a class="line" href="classXPT2046.html#af2ea9dec53894be4312c06aee04a4f75">  131</a></span>    <span class="keyword">const</span> <a class="code hl_union" href="unionXPT2046_1_1XPT2046__Control__t.html">XPT2046_Control_t</a> <a class="code hl_variable" href="classXPT2046.html#af2ea9dec53894be4312c06aee04a4f75">mConYpos</a> = </div>
-<div class="line"><a id="l00132" name="l00132"></a><span class="lineno">  132</span>    {</div>
-<div class="line"><a id="l00133" name="l00133"></a><span class="lineno">  133</span>        0,  <span class="comment">//uint8_t pd      : 2;</span></div>
-<div class="line"><a id="l00134" name="l00134"></a><span class="lineno">  134</span>        0,  <span class="comment">//uint8_t ser_dfr : 1;</span></div>
-<div class="line"><a id="l00135" name="l00135"></a><span class="lineno">  135</span>        0,  <span class="comment">//uint8_t mode    : 1;</span></div>
-<div class="line"><a id="l00136" name="l00136"></a><span class="lineno">  136</span>        1,  <span class="comment">//uint8_t channel : 3;</span></div>
-<div class="line"><a id="l00137" name="l00137"></a><span class="lineno">  137</span>        1   <span class="comment">//uint8_t s       : 1;</span></div>
-<div class="line"><a id="l00138" name="l00138"></a><span class="lineno">  138</span>    };</div>
+<div class="line"><a id="l00137" name="l00137"></a><span class="lineno">  137</span></div>
+<div class="foldopen" id="foldopen00141" data-start="{" data-end="};">
+<div class="line"><a id="l00141" name="l00141"></a><span class="lineno"><a class="line" href="classXPT2046.html#af2ea9dec53894be4312c06aee04a4f75">  141</a></span>    <span class="keyword">const</span> <a class="code hl_union" href="unionXPT2046_1_1XPT2046__Control__t.html">XPT2046_Control_t</a> <a class="code hl_variable" href="classXPT2046.html#af2ea9dec53894be4312c06aee04a4f75">mConYpos</a> = </div>
+<div class="line"><a id="l00142" name="l00142"></a><span class="lineno">  142</span>    {</div>
+<div class="line"><a id="l00143" name="l00143"></a><span class="lineno">  143</span>        0,  <span class="comment">//uint8_t pd      : 2;</span></div>
+<div class="line"><a id="l00144" name="l00144"></a><span class="lineno">  144</span>        0,  <span class="comment">//uint8_t ser_dfr : 1;</span></div>
+<div class="line"><a id="l00145" name="l00145"></a><span class="lineno">  145</span>        0,  <span class="comment">//uint8_t mode    : 1;</span></div>
+<div class="line"><a id="l00146" name="l00146"></a><span class="lineno">  146</span>        1,  <span class="comment">//uint8_t channel : 3;</span></div>
+<div class="line"><a id="l00147" name="l00147"></a><span class="lineno">  147</span>        1   <span class="comment">//uint8_t s       : 1;</span></div>
+<div class="line"><a id="l00148" name="l00148"></a><span class="lineno">  148</span>    };</div>
 </div>
-<div class="line"><a id="l00139" name="l00139"></a><span class="lineno">  139</span></div>
-<div class="line"><a id="l00152" name="l00152"></a><span class="lineno">  152</span>    uint16_t <a class="code hl_function" href="classXPT2046.html#a0ab64c053aaa72152cec0645453de685">convert</a>(XPT2046_Control_t control);</div>
-<div class="line"><a id="l00153" name="l00153"></a><span class="lineno">  153</span> </div>
-<div class="line"><a id="l00154" name="l00154"></a><span class="lineno">  154</span>private :</div>
-<div class="line"><a id="l00155" name="l00155"></a><span class="lineno">  155</span>    Spi *mSpi;          </div>
-<div class="line"><a id="l00156" name="l00156"></a><span class="lineno">  156</span>    pin_t mCsPin;       </div>
-<div class="line"><a id="l00157" name="l00157"></a><span class="lineno">  157</span>    pin_t mBusyPin;     </div>
-<div class="line"><a id="l00158" name="l00158"></a><span class="lineno">  158</span>    pin_t mIsrPin;      </div>
-<div class="line"><a id="l00159" name="l00159"></a><span class="lineno">  159</span></div>
-<div class="line"><a id="l00172" name="l00172"></a><span class="lineno">  172</span>    <span class="keywordtype">void</span> trigger() <span class="keyword">override</span>;</div>
-<div class="line"><a id="l00173" name="l00173"></a><span class="lineno">  173</span>};</div>
+<div class="line"><a id="l00149" name="l00149"></a><span class="lineno">  149</span></div>
+<div class="line"><a id="l00162" name="l00162"></a><span class="lineno">  162</span>    uint16_t <a class="code hl_function" href="classXPT2046.html#a0ab64c053aaa72152cec0645453de685">convert</a>(XPT2046_Control_t control);</div>
+<div class="line"><a id="l00163" name="l00163"></a><span class="lineno">  163</span> </div>
+<div class="line"><a id="l00164" name="l00164"></a><span class="lineno">  164</span>private :</div>
+<div class="line"><a id="l00165" name="l00165"></a><span class="lineno">  165</span>    Spi *mSpi;          </div>
+<div class="line"><a id="l00166" name="l00166"></a><span class="lineno">  166</span>    pin_t mCsPin;       </div>
+<div class="line"><a id="l00167" name="l00167"></a><span class="lineno">  167</span>    pin_t mBusyPin;     </div>
+<div class="line"><a id="l00168" name="l00168"></a><span class="lineno">  168</span>    pin_t mIsrPin;      </div>
+<div class="line"><a id="l00169" name="l00169"></a><span class="lineno">  169</span></div>
+<div class="line"><a id="l00182" name="l00182"></a><span class="lineno">  182</span>    <span class="keywordtype">void</span> trigger() <span class="keyword">override</span>;</div>
+<div class="line"><a id="l00183" name="l00183"></a><span class="lineno">  183</span>};</div>
 </div>
-<div class="line"><a id="l00174" name="l00174"></a><span class="lineno">  174</span> </div>
-<div class="line"><a id="l00175" name="l00175"></a><span class="lineno">  175</span><span class="preprocessor">#endif</span></div>
+<div class="line"><a id="l00184" name="l00184"></a><span class="lineno">  184</span> </div>
+<div class="line"><a id="l00185" name="l00185"></a><span class="lineno">  185</span><span class="preprocessor">#endif</span></div>
 <div class="ttc" id="aclassXPT2046_html_a0ab64c053aaa72152cec0645453de685"><div class="ttname"><a href="classXPT2046.html#a0ab64c053aaa72152cec0645453de685">XPT2046::convert</a></div><div class="ttdeci">uint16_t convert(XPT2046_Control_t control)</div><div class="ttdoc">Transmits a control byte to the XPT2046 and reads the 12-bit ADC conversion result.</div><div class="ttdef"><b>Definition</b> module_XPT2046.cpp:88</div></div>
 <div class="ttc" id="aclassXPT2046_html_a178311f49353d6e7e047705092f7f0a4"><div class="ttname"><a href="classXPT2046.html#a178311f49353d6e7e047705092f7f0a4">XPT2046::initialize</a></div><div class="ttdeci">error_t initialize(config_t config)</div><div class="ttdoc">Initializes the XPT2046 touch screen controller and sets up the touch interrupt.</div><div class="ttdef"><b>Definition</b> module_XPT2046.cpp:51</div></div>
 <div class="ttc" id="aclassXPT2046_html_a20082a088be0347ee5e9f220bd9e710c"><div class="ttname"><a href="classXPT2046.html#a20082a088be0347ee5e9f220bd9e710c">XPT2046::XPT2046</a></div><div class="ttdeci">XPT2046()</div><div class="ttdoc">Constructs a new XPT2046 driver object.</div><div class="ttdef"><b>Definition</b> module_XPT2046.cpp:34</div></div>
-<div class="ttc" id="aclassXPT2046_html_aba72d20705dfd1949ec80ce73786ec3e"><div class="ttname"><a href="classXPT2046.html#aba72d20705dfd1949ec80ce73786ec3e">XPT2046::mConXpos</a></div><div class="ttdeci">const XPT2046_Control_t mConXpos</div><div class="ttdef"><b>Definition</b> XPT2046.h:122</div></div>
-<div class="ttc" id="aclassXPT2046_html_af2ea9dec53894be4312c06aee04a4f75"><div class="ttname"><a href="classXPT2046.html#af2ea9dec53894be4312c06aee04a4f75">XPT2046::mConYpos</a></div><div class="ttdeci">const XPT2046_Control_t mConYpos</div><div class="ttdef"><b>Definition</b> XPT2046.h:131</div></div>
-<div class="ttc" id="astructXPT2046_1_1config__t_html"><div class="ttname"><a href="structXPT2046_1_1config__t.html">XPT2046::config_t</a></div><div class="ttdoc">Hardware configuration parameters for initializing the XPT2046 driver.</div><div class="ttdef"><b>Definition</b> XPT2046.h:70</div></div>
-<div class="ttc" id="astructXPT2046_1_1config__t_html_a484280411b4f9c11402489203b9a9cd5"><div class="ttname"><a href="structXPT2046_1_1config__t.html#a484280411b4f9c11402489203b9a9cd5">XPT2046::config_t::isr</a></div><div class="ttdeci">pin_t isr</div><div class="ttdoc">GPIO pin mapped to the active-low touch interrupt (PENIRQ) line.</div><div class="ttdef"><b>Definition</b> XPT2046.h:74</div></div>
-<div class="ttc" id="astructXPT2046_1_1config__t_html_a7a062a97218c4a1de45a38e0e695b0c4"><div class="ttname"><a href="structXPT2046_1_1config__t.html#a7a062a97218c4a1de45a38e0e695b0c4">XPT2046::config_t::busy</a></div><div class="ttdeci">pin_t busy</div><div class="ttdoc">GPIO pin mapped to the BUSY status line (set {0, 0} if unused).</div><div class="ttdef"><b>Definition</b> XPT2046.h:73</div></div>
-<div class="ttc" id="astructXPT2046_1_1config__t_html_a7ec2eeae3db94a153dedebce7f56e2c1"><div class="ttname"><a href="structXPT2046_1_1config__t.html#a7ec2eeae3db94a153dedebce7f56e2c1">XPT2046::config_t::spi</a></div><div class="ttdeci">Spi &amp; spi</div><div class="ttdoc">Reference to the SPI peripheral instance connected to the touch controller.</div><div class="ttdef"><b>Definition</b> XPT2046.h:71</div></div>
-<div class="ttc" id="astructXPT2046_1_1config__t_html_acfa3f54f769c8e0b8cdc8c0ded999873"><div class="ttname"><a href="structXPT2046_1_1config__t.html#acfa3f54f769c8e0b8cdc8c0ded999873">XPT2046::config_t::chipSelect</a></div><div class="ttdeci">pin_t chipSelect</div><div class="ttdoc">GPIO pin mapped to the active-low Chip Select (CS) line.</div><div class="ttdef"><b>Definition</b> XPT2046.h:72</div></div>
-<div class="ttc" id="aunionXPT2046_1_1XPT2046__Control__t_html"><div class="ttname"><a href="unionXPT2046_1_1XPT2046__Control__t.html">XPT2046::XPT2046_Control_t</a></div><div class="ttdoc">8-bit control byte format for XPT2046 command transactions over SPI.</div><div class="ttdef"><b>Definition</b> XPT2046.h:109</div></div>
-<div class="ttc" id="aunionXPT2046_1_1XPT2046__Control__t_html_a2879b3b4b87d730aba92784dc3ebe78c"><div class="ttname"><a href="unionXPT2046_1_1XPT2046__Control__t.html#a2879b3b4b87d730aba92784dc3ebe78c">XPT2046::XPT2046_Control_t::byte</a></div><div class="ttdeci">uint8_t byte</div><div class="ttdoc">Full 8-bit command byte sent over SPI.</div><div class="ttdef"><b>Definition</b> XPT2046.h:119</div></div>
-<div class="ttc" id="aunionXPT2046_1_1XPT2046__Control__t_html_a28ae3d3691a47e07b9821719e3a208c7"><div class="ttname"><a href="unionXPT2046_1_1XPT2046__Control__t.html#a28ae3d3691a47e07b9821719e3a208c7">XPT2046::XPT2046_Control_t::ser_dfr</a></div><div class="ttdeci">uint8_t ser_dfr</div><div class="ttdoc">Bit 2: Single-Ended (1) / Differential (0) reference mode.</div><div class="ttdef"><b>Definition</b> XPT2046.h:113</div></div>
+<div class="ttc" id="aclassXPT2046_html_aba72d20705dfd1949ec80ce73786ec3e"><div class="ttname"><a href="classXPT2046.html#aba72d20705dfd1949ec80ce73786ec3e">XPT2046::mConXpos</a></div><div class="ttdeci">const XPT2046_Control_t mConXpos</div><div class="ttdoc">Predefined XPT2046 control command for sampling the 12-bit differential X-position channel (channel 5...</div><div class="ttdef"><b>Definition</b> XPT2046.h:129</div></div>
+<div class="ttc" id="aclassXPT2046_html_af2ea9dec53894be4312c06aee04a4f75"><div class="ttname"><a href="classXPT2046.html#af2ea9dec53894be4312c06aee04a4f75">XPT2046::mConYpos</a></div><div class="ttdeci">const XPT2046_Control_t mConYpos</div><div class="ttdoc">Predefined XPT2046 control command for sampling the 12-bit differential Y-position channel (channel 1...</div><div class="ttdef"><b>Definition</b> XPT2046.h:141</div></div>
+<div class="ttc" id="astructXPT2046_1_1config__t_html"><div class="ttname"><a href="structXPT2046_1_1config__t.html">XPT2046::config_t</a></div><div class="ttdoc">Hardware configuration parameters for initializing the XPT2046 driver.</div><div class="ttdef"><b>Definition</b> XPT2046.h:72</div></div>
+<div class="ttc" id="astructXPT2046_1_1config__t_html_a484280411b4f9c11402489203b9a9cd5"><div class="ttname"><a href="structXPT2046_1_1config__t.html#a484280411b4f9c11402489203b9a9cd5">XPT2046::config_t::isr</a></div><div class="ttdeci">pin_t isr</div><div class="ttdoc">GPIO pin mapped to the active-low touch interrupt (PENIRQ) line.</div><div class="ttdef"><b>Definition</b> XPT2046.h:76</div></div>
+<div class="ttc" id="astructXPT2046_1_1config__t_html_a7a062a97218c4a1de45a38e0e695b0c4"><div class="ttname"><a href="structXPT2046_1_1config__t.html#a7a062a97218c4a1de45a38e0e695b0c4">XPT2046::config_t::busy</a></div><div class="ttdeci">pin_t busy</div><div class="ttdoc">GPIO pin mapped to the BUSY status line (set {0, 0} if unused).</div><div class="ttdef"><b>Definition</b> XPT2046.h:75</div></div>
+<div class="ttc" id="astructXPT2046_1_1config__t_html_a7ec2eeae3db94a153dedebce7f56e2c1"><div class="ttname"><a href="structXPT2046_1_1config__t.html#a7ec2eeae3db94a153dedebce7f56e2c1">XPT2046::config_t::spi</a></div><div class="ttdeci">Spi &amp; spi</div><div class="ttdoc">Reference to the SPI peripheral instance connected to the touch controller.</div><div class="ttdef"><b>Definition</b> XPT2046.h:73</div></div>
+<div class="ttc" id="astructXPT2046_1_1config__t_html_acfa3f54f769c8e0b8cdc8c0ded999873"><div class="ttname"><a href="structXPT2046_1_1config__t.html#acfa3f54f769c8e0b8cdc8c0ded999873">XPT2046::config_t::chipSelect</a></div><div class="ttdeci">pin_t chipSelect</div><div class="ttdoc">GPIO pin mapped to the active-low Chip Select (CS) line.</div><div class="ttdef"><b>Definition</b> XPT2046.h:74</div></div>
+<div class="ttc" id="aunionXPT2046_1_1XPT2046__Control__t_html"><div class="ttname"><a href="unionXPT2046_1_1XPT2046__Control__t.html">XPT2046::XPT2046_Control_t</a></div><div class="ttdoc">8-bit control byte format for XPT2046 command transactions over SPI.</div><div class="ttdef"><b>Definition</b> XPT2046.h:113</div></div>
+<div class="ttc" id="aunionXPT2046_1_1XPT2046__Control__t_html_a2879b3b4b87d730aba92784dc3ebe78c"><div class="ttname"><a href="unionXPT2046_1_1XPT2046__Control__t.html#a2879b3b4b87d730aba92784dc3ebe78c">XPT2046::XPT2046_Control_t::byte</a></div><div class="ttdeci">uint8_t byte</div><div class="ttdoc">Full 8-bit command byte sent over SPI.</div><div class="ttdef"><b>Definition</b> XPT2046.h:123</div></div>
+<div class="ttc" id="aunionXPT2046_1_1XPT2046__Control__t_html_a28ae3d3691a47e07b9821719e3a208c7"><div class="ttname"><a href="unionXPT2046_1_1XPT2046__Control__t.html#a28ae3d3691a47e07b9821719e3a208c7">XPT2046::XPT2046_Control_t::ser_dfr</a></div><div class="ttdeci">uint8_t ser_dfr</div><div class="ttdoc">Bit 2: Single-Ended (1) / Differential (0) reference mode.</div><div class="ttdef"><b>Definition</b> XPT2046.h:117</div></div>
 <div class="ttc" id="aunionXPT2046_1_1XPT2046__Control__t_html_a5297447933679b9e1eacfbeee13b830f"><div class="ttname"><a href="unionXPT2046_1_1XPT2046__Control__t.html#a5297447933679b9e1eacfbeee13b830f">XPT2046::XPT2046_Control_t::bits</a></div><div class="ttdeci">struct XPT2046::XPT2046_Control_t::@025215021007311113046005017053102271375101040370 bits</div></div>
-<div class="ttc" id="aunionXPT2046_1_1XPT2046__Control__t_html_a5c8c3618a0c666a3d309a67491c553b0"><div class="ttname"><a href="unionXPT2046_1_1XPT2046__Control__t.html#a5c8c3618a0c666a3d309a67491c553b0">XPT2046::XPT2046_Control_t::channel</a></div><div class="ttdeci">uint8_t channel</div><div class="ttdoc">Bit 4-6: Channel select bits A2-A0 (001 = Y-position, 101 = X-position).</div><div class="ttdef"><b>Definition</b> XPT2046.h:115</div></div>
-<div class="ttc" id="aunionXPT2046_1_1XPT2046__Control__t_html_a8399336c7fae8f2867e6fd8ececd023d"><div class="ttname"><a href="unionXPT2046_1_1XPT2046__Control__t.html#a8399336c7fae8f2867e6fd8ececd023d">XPT2046::XPT2046_Control_t::mode</a></div><div class="ttdeci">uint8_t mode</div><div class="ttdoc">Bit 3: ADC resolution (0 = 12-bit, 1 = 8-bit).</div><div class="ttdef"><b>Definition</b> XPT2046.h:114</div></div>
-<div class="ttc" id="aunionXPT2046_1_1XPT2046__Control__t_html_ab183e56977f89e4f0be255847faf4477"><div class="ttname"><a href="unionXPT2046_1_1XPT2046__Control__t.html#ab183e56977f89e4f0be255847faf4477">XPT2046::XPT2046_Control_t::s</a></div><div class="ttdeci">uint8_t s</div><div class="ttdoc">Bit 7: Start bit (must always be 1).</div><div class="ttdef"><b>Definition</b> XPT2046.h:116</div></div>
-<div class="ttc" id="aunionXPT2046_1_1XPT2046__Control__t_html_afa909622c791ef0769ef291963e6e34f"><div class="ttname"><a href="unionXPT2046_1_1XPT2046__Control__t.html#afa909622c791ef0769ef291963e6e34f">XPT2046::XPT2046_Control_t::pd</a></div><div class="ttdeci">uint8_t pd</div><div class="ttdoc">Bit 0-1: Power-Down mode selection (00 = Power-down between conversions, PENIRQ enabled).</div><div class="ttdef"><b>Definition</b> XPT2046.h:112</div></div>
+<div class="ttc" id="aunionXPT2046_1_1XPT2046__Control__t_html_a5c8c3618a0c666a3d309a67491c553b0"><div class="ttname"><a href="unionXPT2046_1_1XPT2046__Control__t.html#a5c8c3618a0c666a3d309a67491c553b0">XPT2046::XPT2046_Control_t::channel</a></div><div class="ttdeci">uint8_t channel</div><div class="ttdoc">Bit 4-6: Channel select bits A2-A0 (001 = Y-position, 101 = X-position).</div><div class="ttdef"><b>Definition</b> XPT2046.h:119</div></div>
+<div class="ttc" id="aunionXPT2046_1_1XPT2046__Control__t_html_a8399336c7fae8f2867e6fd8ececd023d"><div class="ttname"><a href="unionXPT2046_1_1XPT2046__Control__t.html#a8399336c7fae8f2867e6fd8ececd023d">XPT2046::XPT2046_Control_t::mode</a></div><div class="ttdeci">uint8_t mode</div><div class="ttdoc">Bit 3: ADC resolution (0 = 12-bit, 1 = 8-bit).</div><div class="ttdef"><b>Definition</b> XPT2046.h:118</div></div>
+<div class="ttc" id="aunionXPT2046_1_1XPT2046__Control__t_html_ab183e56977f89e4f0be255847faf4477"><div class="ttname"><a href="unionXPT2046_1_1XPT2046__Control__t.html#ab183e56977f89e4f0be255847faf4477">XPT2046::XPT2046_Control_t::s</a></div><div class="ttdeci">uint8_t s</div><div class="ttdoc">Bit 7: Start bit (must always be 1).</div><div class="ttdef"><b>Definition</b> XPT2046.h:120</div></div>
+<div class="ttc" id="aunionXPT2046_1_1XPT2046__Control__t_html_afa909622c791ef0769ef291963e6e34f"><div class="ttname"><a href="unionXPT2046_1_1XPT2046__Control__t.html#afa909622c791ef0769ef291963e6e34f">XPT2046::XPT2046_Control_t::pd</a></div><div class="ttdeci">uint8_t pd</div><div class="ttdoc">Bit 0-1: Power-Down mode selection (00 = Power-down between conversions, PENIRQ enabled).</div><div class="ttdef"><b>Definition</b> XPT2046.h:116</div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 </div><!-- container -->
