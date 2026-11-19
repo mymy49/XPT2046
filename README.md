@@ -37,7 +37,7 @@ The **XPT2046** is a widely used 4-wire resistive touch screen controller featur
 - **Shield & Display Module**:
   - Designed for Arduino UNO-compatible touch LCD shields, such as the **2.8-inch TFT Touch Shield Rev2.1** (featuring ST7789V LCD + XPT2046 Touch Controller).
 - **Required Software & Toolchains**:
-  - Toolchain: ARM GNU Toolchain or CrossWorks for ARM (v5.x or higher).
+  - Toolchain: CrossWorks for ARM (v5.x or higher).
     - **Note on CrossWorks for ARM**: CrossWorks for ARM does not natively support the Nuvoton M251 series. You must install the custom [CrossworksForARM_Nuvoton_M251 Support Package](https://github.com/mymy49/CrossworksForARM_Nuvoton_M251) before building M251 projects.
   - Framework: [yss OS](https://github.com/mymy49/yss) (embedded RTOS & HAL).
   - Language: C++11 or higher.
