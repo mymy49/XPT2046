@@ -8,6 +8,8 @@
 /**
  * @file XPT2046.h
  * @brief Driver for the XPT2046 4-wire resistive touch screen controller.
+ * @author Yoon-Ki Hong
+ * @date 2026-11-18
  */
 
 #ifndef	YSS_MODULE_XPT2046__H_
@@ -76,6 +78,8 @@ public :
 
 	/**
 	 * @brief Constructs a new XPT2046 driver object.
+	 * @param[in] none
+	 * @return none
 	 * @author Yoon-Ki Hong
 	 * @date 2026
 	 * @warning None.
@@ -119,6 +123,9 @@ protected :
 	    uint8_t byte;               ///< Full 8-bit command byte sent over SPI.
 	};
 
+	/**
+	 * @brief Predefined XPT2046 control command for sampling the 12-bit differential X-position channel (channel 5).
+	 */
 	const XPT2046_Control_t mConXpos = 
 	{
 		0,	//uint8_t pd      : 2;
@@ -128,6 +135,9 @@ protected :
 		1	//uint8_t s       : 1;
 	};
 
+	/**
+	 * @brief Predefined XPT2046 control command for sampling the 12-bit differential Y-position channel (channel 1).
+	 */
 	const XPT2046_Control_t mConYpos = 
 	{
 		0,	//uint8_t pd      : 2;
